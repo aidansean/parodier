@@ -1,0 +1,79 @@
+h1, h2, p, th, td, ol
+{
+  font-family : 'gill sans' , arial , sans-serif ;
+}
+th.form
+{
+  text-align : center ;
+  background-color : rgb(207,0,0) ;
+  color : rgb(255,255,255) ;
+  width : 100px ;
+}
+td
+{
+  vertical-align : top ;
+}
+td.form
+{
+  text-align : left ;
+  width : 100px ;
+}
+input
+{
+  width : 80px ;
+}
+h1, h2
+{
+  font-size : 24pt ;
+  text-align : center ;
+  background-color : rgb(207,0,0) ;
+  color : rgb(255,255,255) ;
+  padding : 10px ;
+  margin : 5px ;
+  margin-top : 0px ;
+}
+h2
+{
+  font-size : 16pt ;
+}
+ol
+{
+  text-align : left ;
+  font-size : 10pt ;
+}
+div#container
+{
+  width : 700px ;
+  padding : 5px ;
+  border : 2px solid rgb(207,0,0) ;
+  text-align : center ;
+  margin : auto ;
+}
+table
+{
+  margin : auto ;
+}
+table#form
+{
+  margin : auto ;
+  width : 220px ;
+}
+p, a
+{
+  color : rgb(207,0,0) 
+}
+input#parody
+{
+  background-color : rgb(207,0,0) ;
+  color : rgb(255,255,255) ;
+  border : 2px solid rgb(0,0,0) ;
+  padding : 2px ;
+  font-size : 16pt ;
+  margin : 5px ;
+  width : 100px ;
+}
+/*img
+{
+  padding : 3px ;
+  border : 2px solid rgb(207,0,0) ;
+}*/
