@@ -3,9 +3,13 @@ from project_module import project_object, image_object, link_object, challenge_
 p = project_object('parodier', 'Parodier')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'parodier'
-p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
+p.preview_image    = image_object('%s/images/project.jpg'   %p.path, 150, 250)
+p.preview_image_bw = image_object('%s/images/project_bw.jpg'%p.path, 150, 250)
+p.folder_name = 'aidansean'
 p.github_repo_name = 'parodier'
 p.mathjax = False
+p.tags = 'Games'
+p.technologies = 'CSS,HTML,JavaScript,MySQL,PHP'
 p.links.append(link_object(p.domain, 'parodier', 'Live page'))
 p.links.append(link_object('http://en.wikipedia.org/', 'wiki/Keep_Calm_and_Carry_On', 'Background information on the original'))
 p.introduction = 'This was something I made a while back for reasons that I can\'t quite remember.  It allows the user to create their own version of the "KEEP CALM AND CARRY ON" posters that have been popular in the past decade.'
